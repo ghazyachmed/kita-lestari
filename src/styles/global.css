@@ -380,7 +380,7 @@ p, li, dd { max-width: 68ch; }
   min-height: 108px;
   padding: 14px;
   border-radius: var(--sudut-kecil);
-  background: var(--hitam);
+  background: var(--putih);
   box-shadow: 0 3px 0 rgba(74, 36, 8, 0.18);
 }
 
@@ -402,7 +402,7 @@ p, li, dd { max-width: 68ch; }
   gap: 18px;
   padding: 14px 20px;
   border-radius: 999px;
-  background: var(--hitam);
+  background: var(--putih);
 }
 
 .logo-strip img { height: 34px; width: auto; object-fit: contain; }

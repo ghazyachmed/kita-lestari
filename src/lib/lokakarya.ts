@@ -114,11 +114,11 @@ export const poster = {
 /** Logo pendukung program, diurutkan seperti pada batang logo di tiap slide. */
 export const logos = [
   { berkas: "/images/logos/kita-lestari.webp", nama: "KITA LESTARI" },
-  { berkas: "/images/logos/tut-wuri-handayani.webp", nama: "Tut Wuri Handayani" },
+  { berkas: "/images/logos/tut-wuri-handayani.svg", nama: "Tut Wuri Handayani" },
   { berkas: "/images/logos/diktisaintek-berdampak.webp", nama: "Diktisaintek Berdampak" },
   { berkas: "/images/logos/simbelmawa.webp", nama: "Simbelmawa" },
   { berkas: "/images/logos/pkm.webp", nama: "PKM, Program Kreativitas Mahasiswa" },
-  { berkas: "/images/logos/itb.webp", nama: "Institut Teknologi Bandung" },
+  { berkas: "/images/logos/itb.svg", nama: "Institut Teknologi Bandung" },
   { berkas: "/images/logos/pelita-muda.webp", nama: "Pelita Muda ITB" },
   { berkas: "/images/logos/sigap-bersinergi.webp", nama: "Sigap Bersinergi" },
 ];
