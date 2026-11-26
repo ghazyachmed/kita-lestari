@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kita-lestari",
+  "compatibility_date": "2026-11-26",
+  // Situs ini statis (output: "static"), jadi Worker cukup menyajikan isi folder dist.
+  // Adanya file ini juga mencegah Wrangler menjalankan `astro add cloudflare` otomatis.
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}
