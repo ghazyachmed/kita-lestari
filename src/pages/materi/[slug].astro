@@ -58,7 +58,7 @@ const slide = slideMateri(item.slug);
     {isHttpUrl(item.gambar_url) && <img src={imageSourceUrl(item.gambar_url)} alt={item.judul ?? "Gambar materi"} loading="lazy" />}
     {asParagraphs(item.isi).map((paragraph) => <p>{paragraph}</p>)}
     {isHttpUrl(item.pdf_url) && <details class="document-embed">
-      <summary class="action-link">Tampilkan PDF materi di halaman ini</summary>
+      <summary class="action-link"><span class="label-tertutup">Tampilkan PDF materi di halaman ini</span><span class="label-terbuka">Sembunyikan PDF materi</span></summary>
       <div class="document-embed-panel">
         <iframe src={pdfPreviewUrl(item.pdf_url)} title={`PDF ${item.judul ?? "materi"}`} loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
           PDF tidak dapat dimuat di halaman ini.

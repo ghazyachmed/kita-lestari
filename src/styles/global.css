@@ -426,6 +426,9 @@ p, li, dd { max-width: 68ch; }
 .quiz-embed { margin-top: 20px; }
 .quiz-embed > summary { list-style: none; cursor: pointer; }
 .quiz-embed > summary::-webkit-details-marker { display: none; }
+/* Teks tombol berganti dari "Tampilkan ..." ke "Sembunyikan ..." saat panel terbuka. */
+details > summary .label-terbuka, details[open] > summary .label-tertutup { display: none; }
+details[open] > summary .label-terbuka { display: inline; }
 .quiz-panel { margin-top: 14px; padding: 18px; border-radius: var(--sudut-kecil); background: var(--putih); }
 .quiz-langkah { margin: 0 0 16px; font-weight: 800; }
 .quiz-list { margin: 0; padding: 0; list-style: none; }

@@ -16,7 +16,7 @@ import { deck, poster, slides, slideUrl } from "../../lib/lokakarya";
       <a class="action-link" href={deck.pdf} download>Unduh {deck.pdfLabel}</a>
     </p>
     <details class="document-embed">
-      <summary class="action-link action-link-kedua">Tampilkan PDF di halaman ini</summary>
+      <summary class="action-link action-link-kedua"><span class="label-tertutup">Tampilkan PDF di halaman ini</span><span class="label-terbuka">Sembunyikan PDF</span></summary>
       <div class="document-embed-panel">
         <iframe src={deck.pdf} title={`PDF ${deck.judul}`} loading="lazy">
           PDF tidak dapat dimuat di halaman ini. Gunakan tombol unduh di atas.

@@ -20,7 +20,7 @@ import { idPaket, latihan, opsiSoal, soalPaket } from "../../lib/content";
               {item.keterangan && <p>{item.keterangan}</p>}
               {butir.length ? (
                 <details class="quiz-embed">
-                  <summary class="action-link">Tampilkan soal {item.judul_paket} di halaman ini</summary>
+                  <summary class="action-link"><span class="label-tertutup">Tampilkan soal {item.judul_paket} di halaman ini</span><span class="label-terbuka">Sembunyikan soal {item.judul_paket}</span></summary>
                   <div class="quiz-panel">
                     <form class="quiz" data-paket={item.judul_paket}>
                       <p class="quiz-langkah" role="status"></p>
